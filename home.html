@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet"  href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 
+	<title>Home</title>
+	
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href=""><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+              
+            <i class="bi bi-x-circle" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="About.html">About<a/></li>
+					<li><a href="courses.html">Courses</a></li>
+					
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				
+			</div>
+		  <i class="bi bi-list" onclick="showMenu()"></i>
+		</nav>
+		<div class="text-box" data-aos="zoom-in">
+			<h1>Finest online Education Institute</h1>
+			<p>In addition to theoretical knowledge, we provide practical exposure</p>
+			<a href="About.html" class="hero-btn">Visit us to Know More</a>
+		</div>
+		
+	</section>
+
+   <section class="Courses" data-aos="fade-right" >
+   	<h1>Courses we offer</h1>
+   	<p>We offer a wide range of online courses including technology-related classes, online courses for children from 1st to 12th grade in all subjects.
+   	</p>
+   	<div class="Row">
+   		
+   <div class="column">
+   	<h3>Online classes</h3>
+   	<p>We offer online classes for students beginning in kindergarten through Class 12 (All Streams). We make the foundation strong by giving conceptual lessons.</p>
+   </div>
+    <div class="column">
+   	<h3>Courses</h3>
+   	<p>Our online courses encompass topics like web development, app development, and design. </p>
+   </div>
+    <div class="column">
+   	<h3>Finance consultant</h3>
+   	<p>Along with giving online tutorials and teaching online technical things,We also provide finance literacy such as where to invest your money..</p>
+   </div>
+
+</div>
+
+   	</div>
+   	
+   </section>
+   <section class="campus" data-aos="zoom-in" >
+   	<h1>Our Faculty</h1>
+   	<p>We have faculty from almost all backgrounds, be it technical, financial, or designing.
+   </p>
+   <div class="Row">
+   	<div class="ccolumn">
+   		<img src="images/ritz.jpg">
+   		<div class="layer">
+   			<h3>Ritesh Padiyar</h3>
+   			<p> Ritesh is from the tech background with a wealth of knowledge and 3 years of experience in teaching. He has enlightened many students' futures.</p> 
+   		</div>
+   		
+   	</div>
+   		<div class="ccolumn">
+   		<img src="images/ashu.jpg">
+   		<div class="layer">
+   			<h3>Ashutosh Arya</h3>
+   			<p> Ashutosh is a dropout from IIIT,DELHI and an undergraduate student of statistics He has information about data analytic processes and graphic design</p> 
+   		</div>
+   		
+   		
+   	</div>
+   		<div class="ccolumn">
+   		<img src="images/nik.jpg">
+   		<div class="layer">
+   			<h3>Nikhil Bhist</h3>
+   			<p> Nikil has a Bachelor of Science degree in economics from Delhi University.</p> 
+   		</div>
+   	
+   		
+   	</div>
+   	
+   </div>
+   	
+   </section>
+
+   <section class="footer">
+   	<h4>All copyright reserved@RitzClasses</h4>
+   	<div class="ficons">
+   		<a href=""><i class="bi bi-linkedin"></i></a>
+   		<a href=""><i class="bi bi-instagram"></i></a>
+   		<a href=""><i class="bi bi-github"></i></a>
+   	</div>
+
+   	
+   </section>
+
+  
+
+
+
+
+	<script>
+		var navLinks= document.getElementById('navLinks');
+		function showMenu() {
+			navLinks.style.right= "0";
+		}
+        function hideMenu() {
+			navLinks.style.right= "-200px";
+		}
+	
+
+
+	</script>
+	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+            
+            
+            duration:1000
+
+      });
+  </script>
+
+
+</body>
+</html>

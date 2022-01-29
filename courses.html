@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Courses</title>
+	
+</head>
+<body>
+	<section class="cheader">
+		<nav>
+			<a href=""><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+              
+            <i class="bi bi-x-circle" onclick="hideMenu()"></i>
+				<ul>
+				<li><a href="home.html">Home</a></li>
+					<li><a href="About.html">About<a/></li>
+					<li><a href="courses.html">Courses</a></li>
+					
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				
+			</div>
+		  <i class="bi bi-list" onclick="showMenu()"></i>
+		</nav>
+		<div class="text-box" data-aos="zoom-in">
+			<h1>Our Courses</h1>
+			<p>we have a bundles of couses for you.</p>
+		</div>
+		
+	</section>
+
+	<section class="cc">
+
+		<div class="cRow" data-aos="zoom-in">
+   
+   <div class="ccol">
+   	<img src="https://image.freepik.com/free-vector/flat-design-online-courses-illustration_52683-37617.jpg">
+   </div>
+   <div class="ccol">
+   	<h3>We offer a wide variety of courses in various domain that includes<br> tech domain,tution from class 1st to 12th as well as various professional courses </h3>
+   	
+   </div>
+			
+
+
+
+		</div>
+		
+
+	</section>
+	   <section class="Courses" data-aos="fade-left" >
+   	<h1>Courses we offer</h1>
+   	<p>We offer following courses
+   	</p>
+   	<div class="Row">
+   		
+   <div class="column">
+   	<h3>Private tution </h3>
+   	<p>We give private tution to children,from class 1st to 12th(All streams)</p>
+   </div>
+    <div class="column">
+   	<h3>Development courses</h3>
+   	<p>We also provide development courses like web development,Android development courses</p>
+   </div>
+    <div class="column">
+   	<h3>Designing </h3>
+   	<p>We provide desinging related courses adobe creative  </p>
+   </div>
+
+</div>
+
+   	</div>
+   	
+   </section>
+
+ <section class="footer">
+   	<h4>All copyright reserved@RitzClasses</h4>
+   	<div class="ficons">
+   		<a href=""><i class="bi bi-linkedin"></i></a>
+   		<a href=""><i class="bi bi-instagram"></i></a>
+   		<a href=""><i class="bi bi-github"></i></a>
+   	</div>
+
+   	
+   </section>
+  
+
+
+	<script>
+		var navLinks= document.getElementById('navLinks');
+		function showMenu() {
+			navLinks.style.right= "0";
+		}
+        function hideMenu() {
+			navLinks.style.right= "-200px";
+		}
+	
+
+
+	</script>
+	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+            
+            
+            duration:1000
+
+      });
+  </script>
+
+</body>
+</html>

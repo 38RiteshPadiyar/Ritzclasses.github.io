@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<title>About us</title>
+	
+</head>
+<body>
+	<section class="aheader">
+		<nav>
+			<a href=""><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+              
+            <i class="bi bi-x-circle" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="About.html">About<a/></li>
+					<li><a href="courses.html">Courses</a></li>
+				
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				
+			</div>
+		  <i class="bi bi-list" onclick="showMenu()"></i>
+		</nav>
+			<div class="text-box" data-aos="zoom-in">
+			<h1>We are team of educators,and learner</h1>
+			<p>Based on our own experience, we are here to share our knowledge.</p>
+		</div>
+		
+	</section>
+
+	<section class="aabout" data-aos="fade-right">
+		<h1 class="rclasses">RitzClasses</h1>
+		<p>We at Ritzclasses belives that every individual grow through constant learning,We have experienced educators who themselves are still in education domain <br> we have tutors from wide variety of domain like tech,finance as well as Arts,who themselves have enonmous experiece in thier domain<br>and  with thier passion to share knowldege they are here to provide best quality of education</p>
+		
+	</section>
+		<section class="facilities">
+   	<h1>Why to choose Us?</h1>
+   
+   	<div class="Row">
+   		<div class="fcolumn" data-aos="flip-left">
+   			<img src="https://cdni.iconscout.com/illustration/premium/thumb/female-teacher-1792777-1519332.png">
+   			<h1>Experienced faculty</h1>
+   			<p>We have faculty who are best in thier domain, our faculty will solve all your queries topic-wise.
+   			</p>
+   			
+   		</div>
+   		<div class="fcolumn" data-aos="flip-right">
+   			<img src="https://previews.123rf.com/images/rastudio/rastudio1909/rastudio190900187/129976057-employee-assessment-concept-vector-illustration-.jpg">
+   			<h1>Quality Assignment</h1>
+   			<p>We prepare our assignment with lots of research and our assignment consists of summary of each chapter and lots of questions for you to prepare well.
+   			</p>
+   			
+   		</div>
+   		<div class="fcolumn" data-aos="flip-left">
+   			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSjvv64BpF1rg5ftDFyYOx8OCSDyHW4om39g&usqp=CAU">
+   			<h1>Weekely progress Reports</h1>
+   			<p>We take weekly test of every topic taught in the class and then give you your weekly report topic wise so that you can focus on your weak points and improve them.</p>
+   			
+   		</div>
+
+   	</div>
+   	
+   </section>
+    <section class="footer">
+   	<h4>All copyright reserved@RitzClasses</h4>
+   	<div class="ficons">
+   		<a href=""><i class="bi bi-linkedin"></i></a>
+   		<a href=""><i class="bi bi-instagram"></i></a>
+   		<a href=""><i class="bi bi-github"></i></a>
+   	</div>
+
+   	
+   </section>
+
+	
+
+	<script>
+		var navLinks= document.getElementById('navLinks');
+		function showMenu() {
+			navLinks.style.right= "0";
+		}
+        function hideMenu() {
+			navLinks.style.right= "-200px";
+		}
+	
+
+
+	</script>
+	   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+            
+            
+            duration:1000
+
+      });
+  </script>
+
+
+</body>
+</html>
